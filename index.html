@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Page Title</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background: white;
+        }
+
+        td {
+            padding: 1em;
+            cursor: pointer;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a Table</h1>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>3</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <script>
+        document.querySelectorAll('td').forEach(function (tdElement) {
+            tdElement.addEventListener('click', markIt);
+        });
+        function markIt(e) {
+            const tdElements = document.querySelectorAll("td");
+
+            for (const tdElement of tdElements) {
+                tdElement.style.background = "";
+                if (tdElement.textContent.includes(e.target.textContent)) {
+                    tdElement.style.background = "#f1807e";
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>
