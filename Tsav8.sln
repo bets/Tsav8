@@ -26,6 +26,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bootstrap", "bootstrap", "{
 		..\..\Publish\wwwroot\css\bootstrap\bootstrap.min.css.map = ..\..\Publish\wwwroot\css\bootstrap\bootstrap.min.css.map
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_content", "_content", "{FD93A841-06BF-458D-8AED-8362700FEDE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft.AspNetCore.Components.QuickGrid", "Microsoft.AspNetCore.Components.QuickGrid", "{470F40EE-A62B-4DFA-B17B-353531611DA7}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +38,8 @@ Global
 		{4B8758FB-845E-4C70-AA32-0FB1ABC8C6F6} = {B7DCC169-8F39-4751-80D1-BE3A74D21193}
 		{95A007F0-D086-4C06-9FE9-8D7F3658E3DC} = {B7DCC169-8F39-4751-80D1-BE3A74D21193}
 		{DFFB7E3B-9BE5-477B-8AD6-4B70A85DAD03} = {95A007F0-D086-4C06-9FE9-8D7F3658E3DC}
+		{FD93A841-06BF-458D-8AED-8362700FEDE6} = {B7DCC169-8F39-4751-80D1-BE3A74D21193}
+		{470F40EE-A62B-4DFA-B17B-353531611DA7} = {FD93A841-06BF-458D-8AED-8362700FEDE6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E1E39B2-3A57-49CC-8E76-84701770DFDE}
